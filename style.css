@@ -1,0 +1,85 @@
+body {
+    font-family: -roboto, apple, BlinkMacSystemFont ;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header { 
+    display: flex;
+    justify-content: space-around;
+    background: #1f2937;
+}
+
+.headerlinks {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 18px;
+    color: #E5E7EB
+
+}
+
+.TopContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 60px;
+    background: #1f2937;
+}
+
+.containerTOP {
+    display: flex;
+    flex-direction: column;
+    margin-right: -325px;
+    margin-bottom: 100px;
+    
+}
+
+.CenterContent {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 52px;
+    font-style: 18px;
+    padding: 160px;
+    
+    
+}
+
+.BottomText {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: stretch;
+    padding: 160px;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    background: #1f2937;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    
+  }
+  
+  ul {
+    list-style:  none;
+    
+  }
