@@ -7,8 +7,13 @@ body {
 
 .header { 
     display: flex;
-    justify-content: space-around;
     background: #1f2937;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-left: 290px;
 }
 
 .headerlinks {
@@ -16,7 +21,8 @@ body {
     justify-content: space-between;
     gap: 15px;
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    margin-left: 485px;
 
 }
 
@@ -32,8 +38,34 @@ body {
     display: flex;
     flex-direction: column;
     margin-right: -325px;
+    margin-left: -70px;
     margin-bottom: 100px;
     
+}
+
+.Awesometext {
+    margin-top:-50px ;
+}
+
+.secondarytext {
+    height: 50px;
+    width: 500px;
+    
+
+}
+
+.buttonOne {
+    border-style: solid;
+    border-color: #3882F6;
+    background-color: #3882F6;
+    border-radius: 5px; 
+    width: 100px;
+    height: 25px;  
+    margin-top: 10px;
+    display: flex; 
+    justify-content: center;
+    align-self: flex-start;
+
 }
 
 .CenterContent {
