@@ -38,6 +38,7 @@ body {
 
 .CenterContent {
     background-color: white;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,13 +49,39 @@ body {
 .Photos {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 52px;
+    justify-content: space-between;
     font-style: 18px;
-    padding: 160px;
-    
-    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 100px;    
 }
+
+.Monkeyone, .Monkeytwo, .Monkeythree, .Monkeyfour {
+    display: block;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 5px;
+    padding-bottom:0px; 
+}
+
+.textphotos {
+    gap: 105px;
+    display: flex;
+    margin-top: -50px;
+    margin-bottom: 70px;
+}
+
+.textone, .texttwo, .textthree, .textfour {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 150px;
+    height: 50px;
+    margin-top: -5px;  
+    color: #1F2937;
+    font-size: 12px;
+}
+
 
 .BottomContent {
     background-color: #E5E7EB;
@@ -62,7 +89,7 @@ body {
     flex-direction: column;
     padding-top: 160px;
     padding-bottom:160px;
-    padding-left: 410px;
+    padding-left: 450px;
     padding-right: 500px;
    
 
@@ -83,7 +110,7 @@ body {
     display: flex;
     justify-content: center;
     align-self: flex-end;
-    padding-right: 60px;
+    padding-right: 20px;
 
 }
 
@@ -143,4 +170,12 @@ a {
 
 p {
     display: inline;
+}
+
+IMG {
+
+Display: block;
+
+border: 0;
+
 }
