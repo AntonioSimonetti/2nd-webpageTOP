@@ -8,6 +8,7 @@ body {
 .header { 
     display: flex;
     background: #1f2937;
+
 }
 
 .logo {
@@ -185,6 +186,12 @@ body {
     align-items: center;
     color: #E5E7EB;
     background: #1f2937;
+
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
 }
 
 
@@ -210,4 +217,9 @@ Display: block;
 
 border: 0;
 
+}
+
+.monkeyresize {
+    width: 100%;
+    height: auto;
 }
