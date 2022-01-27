@@ -56,13 +56,69 @@ body {
     
 }
 
-.BottomText {
+.BottomContent {
     background-color: #E5E7EB;
     display: flex;
-    align-items: stretch;
-    padding: 160px;
+    flex-direction: column;
+    padding-top: 160px;
+    padding-bottom:160px;
+    padding-left: 410px;
+    padding-right: 500px;
+   
+
+}
+
+.BottomText {
+    color: #1f2937;
+    font-style:  italic;
+    font-size: 36px;
+    display: flex;
+    
     
 }
+
+.author { 
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    padding-right: 60px;
+
+}
+
+.calltoaction {
+    display: flex;
+    background-color: #3882F6;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 550px;
+    border-radius: 10px;
+    width: 750px;
+    height: 150px;
+}
+
+.textcallHeader {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.buttonTwo {
+    border-style: solid;
+    border-color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 5px; 
+    width: 100px;
+    height: 25px;  
+    margin:50px;
+    display: flex; 
+    justify-content: center;
+    align-self: center;
+}
+
 
 .footer {
     display: flex;
@@ -75,7 +131,7 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: white; 
     
   }
   
@@ -83,3 +139,8 @@ a {
     list-style:  none;
     
   }
+
+
+p {
+    display: inline;
+}
