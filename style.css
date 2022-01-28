@@ -46,14 +46,14 @@ body {
 
 .Awesometext {
     margin-top:-50px ;
+   
 }
 
 .secondarytext {
     height: 50px;
     width: 500px;
-    
-
 }
+
 
 .buttonOne {
     border-style: solid;
@@ -68,6 +68,7 @@ body {
     align-self: flex-start;
 
 }
+
 
 .CenterContent {
     background-color: white;
@@ -174,6 +175,7 @@ body {
     width: 100px;
     height: 25px;  
     margin:50px;
+    margin-bottom: 50px;
     display: flex; 
     justify-content: center;
     align-self: center;
@@ -217,9 +219,4 @@ Display: block;
 
 border: 0;
 
-}
-
-.monkeyresize {
-    width: 100%;
-    height: auto;
 }
